@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f1ff;
+    margin: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+    color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	margin-left: 120px;
+	border-radius: 25px;
+}
+
+.intro {
+    margin-top: 45px;
+    text-align: center;
+}
+
+#greetings{
+    color: #5bc1ac;
+}
+
+#error{
+    text-align: center;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+  
+form {
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+}
+  
+.form-group {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: inline-block;
+    width: 100px;
+}
+  
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+  
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #f2f2f2;
+}
+  
+button[onclick="Error()"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button[onclick="Error()"]:hover {
+    background-color: #5bc1ac;
+}
+
+#forgotPassword {
+    margin-top: 10px;
+    font-size: 15px;
+}
+  
+footer {
+    background-color: #f8f9fa;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+	margin-top: auto;
+	padding: 10px 170px;
+	font-size: 80%;
+	color: #5a6f80;
+	overflow: auto;
+	height: 130px;
+}
+  
+.contact-info, .social-media {
+    float: right;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+  
+.social-media a {
+    display: inline;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    float: right;
+	width: 55px;
+    margin-right: 25px;
+    margin-top: 10px;
+	height: 55px;
+    border-radius: 25px;
+	background: url("images/socmed.png") -21px -13px;
+}
+.facebook{
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+	width: 55px;
+	height: 55px;
+    border-radius: 25px;
+	background: url("images/socmed.png") -211px -296px;
+}
+.instagram:hover{
+	width: 55px;
+	height: 55px;
+    border-radius: 25px;
+	background: url("images/socmed.png") -313px -13px;
+}
+
+.facebook:hover{
+	width: 55px;
+	height: 55px;
+    border-radius: 25px;
+	background: url("images/socmed.png") -503px -296px;
+}
