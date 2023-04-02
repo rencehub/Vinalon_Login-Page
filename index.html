@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style_login.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <h1>Login Page</h1>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2 id="greetings">Elderly Care welcomes you to our website!</h2>
+            <p>We are an advocacy that aims to promote the welfare of the elderly population. <br> With the world's aging population on the rise, we recognize the need to ensure <br> that our seniors are given the care and attention they deserve. </br></p>
+            <p>Join us now and make a difference!</p>
+        </div>
+
+        <form id="login-form">
+            <p id="error">Become a volunteer!</p>
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+
+            <button onclick="Error()">Login</button>
+
+            <div class="form-group", id="forgotPassword">
+                <a href="#">Forgot password?</a>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>Copyright ©2023. Elderly Care. All rights reserved.</p>
+            <p>clarence.vinalon@smc.pshs.edu.ph</p>
+            <p>SOCIAL ACCOUNTS:</p>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/clr3nce/">
+                <img class="instagram" src="images/img_trans.png" height=1 width=1>
+            </a>
+            <a href="https://www.facebook.com/clarence.vinalon.3">
+                <img class="facebook" src="images/img_trans.png" height=1 width=1>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
